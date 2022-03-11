@@ -5,18 +5,18 @@ import java.util.Scanner;
 
 public class Kolmogorov {
     Scanner sc = new Scanner(System.in);
-     int xo, a, m, numeroG;
-     int b, conteo = 15, j = 0;
+    int xo, a, m, numeroG;
+    int b, conteo = 15, j = 0;
 
-     double[] muestraA = new double[50];//muestra
-     double[] muestraB = new double[15];
-     double[] muestraC = new double[15];
-     double[] AcumuEspe = new double[muestraC.length];
-     double[] Diferencia = new double[muestraC.length];
-     double uniformidad, Dmax;
-    DecimalFormat format= new DecimalFormat("#,###.##");
-    quickSort ordenamiento= new quickSort();
-    chiCudrada chicuadrada= new chiCudrada();
+    double[] muestraA = new double[50];//muestra
+    double[] muestraB = new double[15];
+    double[] muestraC = new double[15];
+    double[] AcumuEspe = new double[muestraC.length];
+    double[] Diferencia = new double[muestraC.length];
+    double uniformidad, Dmax;
+    DecimalFormat format = new DecimalFormat("#,###.##");
+    quickSort ordenamiento = new quickSort();
+    chiCudrada chicuadrada = new chiCudrada();
 
     public void Kolmogorov() {
 
@@ -89,9 +89,9 @@ public class Kolmogorov {
             i++;
         }
 
-        ordenamiento.quickSort(Diferencia,0,Diferencia.length-1);
+        ordenamiento.quickSort(Diferencia, 0, Diferencia.length - 1);
 
-        System.out.print("  Dmax= "+Diferencia[Diferencia.length-1]);
+        System.out.print("  Dmax= " + Diferencia[Diferencia.length - 1]);
 
     }
 

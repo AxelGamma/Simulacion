@@ -1,6 +1,9 @@
 package Kolmogorov;
 
 public class quickSort {
+    public void quickSor(){
+
+    }
 
     public void quickSort(double[] a, int primero, int ultimo) {
         int i, j, central;
