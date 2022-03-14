@@ -1,7 +1,7 @@
 package Kolmogorov;
 
 public class quickSort {
-    public void quickSor(){
+    public void quickSor() {
 
     }
 
@@ -32,10 +32,10 @@ public class quickSort {
 
     }
 
-    public static void intercambiar(double[]a,int i,int j){
-        double aux=a[i];
-        a[i]=a[j];
-        a[j]=aux;
+    public static void intercambiar(double[] a, int i, int j) {
+        double aux = a[i];
+        a[i] = a[j];
+        a[j] = aux;
     }
 
 }

@@ -1,24 +1,24 @@
 package Kolmogorov;
 
-import java.text.DecimalFormat;
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) throws Exception {
+        try {
+            Generador generador = new Generador();
+            Kolmogorov prueba1 = new Kolmogorov();
+            chiCudrada chi = new chiCudrada();
+            while(generador.getEsCompleto()!=true) {
+                generador.datos();
+                generador.generador();
+            }
 
-        Kolmogorov prueba1 = new Kolmogorov();
-        chiCudrada chi = new chiCudrada();
+            // chi.chiCuadrada(prueba1.getMuestraA());
+            // chi.resultados();
 
-        prueba1.datos();
-        prueba1.generados();
+        } catch (Exception e) {
+            System.out.println("Introduce puros numeros");
 
-        chi.chiCuadrada(prueba1.getMuestraA());
-        chi.resultados();
-
+        }
 
     }
 
-
 }
-
-

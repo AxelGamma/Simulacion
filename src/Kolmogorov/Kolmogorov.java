@@ -5,8 +5,9 @@ import java.util.Scanner;
 
 public class Kolmogorov {
     Scanner sc = new Scanner(System.in);
-    int xo, a, m, numeroG;
-    int b, conteo = 15, j = 0;
+    int xo, a, m, numeroG, semilla;
+    int b, conteo = 15, j = 0,i;
+    boolean periodoCom = true;
 
     double[] muestraA = new double[50];// muestra
     double[] muestraB = new double[15];
@@ -16,40 +17,16 @@ public class Kolmogorov {
     double uniformidad, Dmax;
     DecimalFormat format = new DecimalFormat("#,###.##");
     quickSort ordenamiento = new quickSort();
-    chiCudrada chicuadrada = new chiCudrada();
 
     public void Kolmogorov() {
+        
 
     }
 
-    public void datos() {
-        System.out.println("Introduce la semilla -Xo- ");
-        xo = sc.nextInt();
-
-        System.out.println("Introduce -a-");
-        a = sc.nextInt();
-
-        System.out.println("Introduce el valor de -b-");
-        b = sc.nextInt();
-
-        m = (int) Math.pow(2, b);// 2^10
-    }
-
+    
+    //Numeros generados
     public void generados() {
-        int i = 0;
-        System.out.println("i   " + "numeros generados    " + "     Uniformidad");
-        while (i < m) {
-            numeroG = (a * xo) % m;
-            uniformidad = (float) xo / m;
-            System.out.println(i + 1 + "    " + xo + "     , " + numeroG + "    " + uniformidad);
-            xo = numeroG;
-            if (i > 30 && j < muestraA.length) {
-                muestraA[j] = uniformidad;
-                j++;
-            }
-            i++;
-        }
-
+        //Prueba de kolmogorov
         i = 0;
         System.out.println("i   " + "---Muestras arreglo A---");
         while (i < muestraA.length) {
@@ -91,11 +68,15 @@ public class Kolmogorov {
 
         ordenamiento.quickSort(Diferencia, 0, Diferencia.length - 1);
 
-        System.out.print("--------Dmax= " + Diferencia[Diferencia.length - 1]+"---------");
+        System.out.print("--------Dmax= " + Diferencia[Diferencia.length - 1] + "---------");
+
 
     }
+
 
     public double[] getMuestraA() {
         return muestraA;
     }
+
+
 }
