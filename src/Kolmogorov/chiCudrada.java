@@ -1,7 +1,4 @@
 package Kolmogorov;
-
-import java.util.Scanner;
-
 public class chiCudrada {
     double[] muestras;
     int contador, esperado = 10, rango1, rango2, rango3, rango4, rango5;
