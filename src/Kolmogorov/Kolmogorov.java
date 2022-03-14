@@ -8,7 +8,7 @@ public class Kolmogorov {
     int xo, a, m, numeroG;
     int b, conteo = 15, j = 0;
 
-    double[] muestraA = new double[50];//muestra
+    double[] muestraA = new double[50];// muestra
     double[] muestraB = new double[15];
     double[] muestraC = new double[15];
     double[] AcumuEspe = new double[muestraC.length];
@@ -32,7 +32,7 @@ public class Kolmogorov {
         System.out.println("Introduce el valor de -b-");
         b = sc.nextInt();
 
-        m = (int) Math.pow(2, b);//2^10
+        m = (int) Math.pow(2, b);// 2^10
     }
 
     public void generados() {
@@ -57,9 +57,9 @@ public class Kolmogorov {
             i++;
         }
 
-        //Arreglo A Muestra con 50
-        //Arreglo B de 15
-        //Arreglo C
+        // Arreglo A Muestra con 50
+        // Arreglo B de 15
+        // Arreglo C
         i = 0;
         while (i < muestraB.length) {
             muestraB[i] = muestraA[i];
@@ -91,7 +91,7 @@ public class Kolmogorov {
 
         ordenamiento.quickSort(Diferencia, 0, Diferencia.length - 1);
 
-        System.out.print("  Dmax= " + Diferencia[Diferencia.length - 1]);
+        System.out.print("--------Dmax= " + Diferencia[Diferencia.length - 1]+"---------");
 
     }
 
