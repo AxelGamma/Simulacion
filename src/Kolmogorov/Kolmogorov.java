@@ -19,8 +19,6 @@ public class Kolmogorov {
     quickSort ordenamiento = new quickSort();
 
     public void Kolmogorov() {
-        
-
     }
 
     
