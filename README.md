@@ -72,3 +72,26 @@ Xo a b
 237 477 10
 369 581 10
 ```
+# Estado de pruebas de Huecos
+```
+***Datos que no pasaron la prueba***
+215 509 10
+369 581 10
+***Datos que pasaron la prueba de chiCuadrada: 13***
+
+1      true
+2      true
+3      true
+4      true
+5      true
+6      true
+7      true
+8      true
+9     false
+10      true
+11      true
+12      true
+13     false
+
+```
+
