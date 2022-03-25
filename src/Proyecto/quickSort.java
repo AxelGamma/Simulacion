@@ -1,4 +1,4 @@
-package Kolmogorov;
+package Proyecto;
 
 public class quickSort {
     public void quickSor() {

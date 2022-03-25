@@ -1,13 +1,13 @@
-package Kolmogorov;
+package Proyecto;
 
 public class chiCuadrada {
         double[] muestras;
-        boolean[] estadoPruebas;
         int contador, esperado, rango1, rango2, rango3, rango4, rango5;
         int sumaObserv = 0;
         double chiCalculada;
         int numeroPruebas, conteoPruebas = 0;
-                        
+        boolean estadoPrueba = false;
+
         public chiCuadrada(double[] muestraA, int numeroPruebas) {
                 this.muestras = muestraA;
                 this.numeroPruebas = numeroPruebas;
@@ -76,23 +76,22 @@ public class chiCuadrada {
         // Chicalculada ó estadistico= sumaObservada < Chi de Tablas, no se rechaza la
         // hipotesis nula
         // (ri~U(0,1))
-        public String estadoPrueba() {
+        private String estadoPrueba() {
 
                 if (chiCalculada < 9.488) {
-//                        estadoPruebas(true);
-                        conteoPruebas++;
+                        setEstadoPrueba(true);
                         return "Ha pasado la prueba";
-
                 }
-//                estadoPruebas(false);
-                conteoPruebas++;
+                setEstadoPrueba(false);
                 return "No pasa la prueba";
         }
 
-//        public Boolean[] estadoPruebas(boolean estado) {
-//                return estadoPruebas;
-//        }
+        private void setEstadoPrueba(boolean estadoPrueba) {
+                this.estadoPrueba = estadoPrueba;
+        }
 
-
+        public boolean getEstadoPrueba() {
+                return estadoPrueba;
+        }
 
 }

@@ -1,4 +1,4 @@
-package Kolmogorov;
+package Proyecto;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Kolmogorov;
+package Proyecto;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

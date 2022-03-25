@@ -40,3 +40,7 @@ Xo a b
 49 309 10
 237 477 10
 369 581 10
+
+# Estado de pruebas con ChiCuadrada
+
+

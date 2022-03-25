@@ -14,7 +14,7 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
-            "mainClass": "Kolmogorov.Main",
+            "mainClass": "Proyecto.Main",
             "projectName": "NumerosPseudoAleatorios_2232cedd"
         }
     ]
