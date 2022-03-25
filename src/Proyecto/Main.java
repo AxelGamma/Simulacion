@@ -3,7 +3,7 @@ package Proyecto;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        try {
+        // try {
             int[][] pruebas;
 
             inputDatos datos = new inputDatos();
@@ -11,20 +11,25 @@ public class Main {
             datos.outputArray();
             pruebas = datos.getPruebas();
             boolean[] estados = new boolean[datos.getNumPruebas()];
+
             int i = 0;
             while (i < pruebas.length) {
-                //Creamos objeto de la clase generador
+                // Creamos objeto de la clase generador
                 Generador generador = new Generador();
-                generador.datos(pruebas[i][0], pruebas[i][1], pruebas[i][2]); //hacemos la generacion de las pruebas a hacer
+                generador.datos(pruebas[i][0], pruebas[i][1], pruebas[i][2]); // hacemos la generacion de las pruebas a
+                                                                              // hacer
                 generador.generador();
-
 
                 // Creamos objeto de la chiCuadrada donde introducimos la muestraA(muestra de 50
                 // numeros) y la cantidad de numeros de las pruebas hacer
                 chiCuadrada chi = new chiCuadrada(generador.muestraA, datos.getNumPruebas());
-                chi.resultados();
-                estados[i] = chi.getEstadoPrueba();
+                Huecos huecos = new Huecos(generador.getMuestraA());
+                huecos.pruebaH();
+                // chi.resultados();
+                estados[i] = huecos.getEstadoPrueba();
+
                 i++;
+
             }
 
             i = 0;
@@ -33,10 +38,10 @@ public class Main {
                 i++;
             }
 
-        } catch (Exception e) {
-            System.out.println("Introduce puros numeros");
+        // } catch (Exception e) {
+        //     System.out.println(e);
 
-        }
+        // }
 
     }
 
