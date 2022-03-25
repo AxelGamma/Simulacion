@@ -3,9 +3,11 @@
 En este proyectos se encuentrar las pruebas de uniformidad, Independencia y aleatoriedad
 
 # Tabla de pruebas
-***15 pruebas:***
 
-***Xo a b***
+**_15 pruebas:_**
+
+**_Xo a b_**
+
 ```
 5 5 10
 43 1003 10
@@ -23,7 +25,9 @@ En este proyectos se encuentrar las pruebas de uniformidad, Independencia y alea
 237 477 10
 369 581 10
 ```
+
 # Tabla de pruebas de generador y estado
+
 ```
 *** Numeros con periodo completo:14  ***
 *** Numeros que no pasaron la prueba:1 ***
@@ -46,11 +50,14 @@ Xo a b
 237 477 10
 369 581 10
 ```
+
 # Estado de pruebas con ChiCuadrada
+
+```
 ***Datos que no pasaron la prueba***
 49 309 10
 ***Datos que pasaron la prueba de chiCuadrada: 13***
-```
+
 5 5 10
 43 1003 10
 121 653 10
