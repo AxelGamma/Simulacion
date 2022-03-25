@@ -1,7 +1,7 @@
 package Proyecto;
 
 public class Main {
-    
+
     public static void main(String[] args) throws Exception {
         try {
             int[][] pruebas;
@@ -13,10 +13,14 @@ public class Main {
             boolean[] estados = new boolean[datos.getNumPruebas()];
             int i = 0;
             while (i < pruebas.length) {
-
+                //Creamos objeto de la clase generador
                 Generador generador = new Generador();
-                generador.datos(pruebas[i][0], pruebas[i][1], pruebas[i][2]);
+                generador.datos(pruebas[i][0], pruebas[i][1], pruebas[i][2]); //hacemos la generacion de las pruebas a hacer
                 generador.generador();
+
+
+                // Creamos objeto de la chiCuadrada donde introducimos la muestraA(muestra de 50
+                // numeros) y la cantidad de numeros de las pruebas hacer
                 chiCuadrada chi = new chiCuadrada(generador.muestraA, datos.getNumPruebas());
                 chi.resultados();
                 estados[i] = chi.getEstadoPrueba();
@@ -25,7 +29,7 @@ public class Main {
 
             i = 0;
             while (i < estados.length) {
-                System.out.print(String.format("%5b\n", estados[i]));
+                System.out.print(String.format("%d", i + 1) + String.format("%10b\n", estados[i]));
                 i++;
             }
 
@@ -35,6 +39,5 @@ public class Main {
         }
 
     }
-    
 
 }
