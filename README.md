@@ -78,20 +78,20 @@ Xo a b
 215 509 10
 369 581 10
 ***Datos que pasaron la prueba de chiCuadrada: 13***
-
-1      true
-2      true
-3      true
-4      true
-5      true
-6      true
-7      true
-8      true
-9     false
-10      true
-11      true
-12      true
-13     false
+5 5 10
+43 1003 10
+121 653 10
+223 733 10
+377 611 10
+541 1013 10
+357 683 10
+295 339 10
+129 779 10
+71 709 10
+237 477 10
 
 ```
+# Estado de pruebas de poker
+
+
 
