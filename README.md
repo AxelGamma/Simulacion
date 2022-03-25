@@ -6,6 +6,7 @@ En este proyectos se encuentrar las pruebas de uniformidad, Independencia y alea
 ***15 pruebas:***
 
 ***Xo a b***
+```
 5 5 10
 43 1003 10
 121 653 10
@@ -21,8 +22,9 @@ En este proyectos se encuentrar las pruebas de uniformidad, Independencia y alea
 49 309 10
 237 477 10
 369 581 10
-
+```
 # Tabla de pruebas de generador y estado
+```
 *** Numeros con periodo completo:14  ***
 *** Numeros que no pasaron la prueba:1 ***
 ***Datos que no pasaron:***
@@ -43,11 +45,12 @@ Xo a b
 49 309 10
 237 477 10
 369 581 10
-
+```
 # Estado de pruebas con ChiCuadrada
 ***Datos que no pasaron la prueba***
 49 309 10
 ***Datos que pasaron la prueba de chiCuadrada: 13***
+```
 5 5 10
 43 1003 10
 121 653 10
@@ -61,3 +64,4 @@ Xo a b
 71 709 10
 237 477 10
 369 581 10
+```
