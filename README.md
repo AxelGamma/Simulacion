@@ -57,7 +57,7 @@ Xo a b
 ***Datos que no pasaron la prueba***
 49 309 10
 ***Datos que pasaron la prueba de chiCuadrada: 13***
-
+Xo a b
 5 5 10
 43 1003 10
 121 653 10
@@ -75,9 +75,12 @@ Xo a b
 # Estado de pruebas de Huecos
 ```
 ***Datos que no pasaron la prueba***
+Xo a b
 215 509 10
 369 581 10
-***Datos que pasaron la prueba de chiCuadrada: 13***
+***Datos que pasaron la prueba de Huecos: 11***
+Xo a b
+
 5 5 10
 43 1003 10
 121 653 10
