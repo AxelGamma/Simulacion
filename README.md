@@ -118,3 +118,10 @@ Xo a b
 237 477 10
 
 ```
+# Estado de pruebas de Monte Carlo
+```
+41 1203 13
+
+295	419	13
+
+```

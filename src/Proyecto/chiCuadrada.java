@@ -1,12 +1,12 @@
 package Proyecto;
 
 public class chiCuadrada {
-        double[] muestras;
-        int contador, esperado, rango1, rango2, rango3, rango4, rango5;
-        int sumaObserv = 0;
-        double chiCalculada;
-        int numeroPruebas, conteoPruebas = 0;
-        boolean estadoPrueba = false;
+        private double[] muestras;
+        private int contador, esperado, rango1, rango2, rango3, rango4, rango5;
+        private int sumaObserv = 0;
+        private double chiCalculada;
+        private int numeroPruebas, conteoPruebas = 0;
+        private boolean estadoPrueba = false;
 
         public chiCuadrada(double[] muestraA, int numeroPruebas) {
                 this.muestras = muestraA;

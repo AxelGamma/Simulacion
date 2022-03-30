@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AppMontecarlo",
+            "request": "launch",
+            "mainClass": "Proyecto.AppMontecarlo",
+            "projectName": "NumerosPseudoAleatorios_a6d14e06"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

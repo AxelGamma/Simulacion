@@ -91,8 +91,8 @@ public class Huecos {
         i = 0;
         while (i < uNosCeros.length) {
 
-            if (j == 50) {
-                j = 49;
+            if (j == muestra.length) {
+                j = muestra.length-1;
             }
             if (uNosCeros[i] == 0) {
                 conteoCero++;
@@ -100,7 +100,7 @@ public class Huecos {
                     SizeHueco(conteoCero, i);
                 }
             } else if (uNosCeros[i] == 1 && uNosCeros[j] == 1) {
-                if ((i + 1) != 50) {
+                if ((i + 1) != muestra.length) {
                     SizeHueco(0, i);
                 }
             } else {
