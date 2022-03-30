@@ -27,16 +27,16 @@ public class Generador {
         m = (int) Math.pow(2, b);// 2^10
         i = 0;
         // Imprimimos los numeros generados
-        System.out.println(String.format("%s", "i") + String.format("%10s", "Xo")
-                + String.format("%25s", "Numeros generados") + String.format("%20s", "Uniformidad"));
+        // System.out.println(String.format("%s", "i") + String.format("%10s", "Xo")
+        //         + String.format("%25s", "Numeros generados") + String.format("%20s", "Uniformidad"));
         // Nuestro bucle empieza en 0 hasta m, en la linea 40 donde se rompe si los se
         // llega a encontrar la semilla
         while (i < m) {
             numeroG = (a * xo) % m;
             uniformidad = (float) xo / m;
 
-            System.out.println(String.format("%d", i + 1) + String.format("%10d", xo) + String.format("%15d", numeroG)
-                    + String.format("%27f", uniformidad));
+            // System.out.println(String.format("%d", i + 1) + String.format("%10d", xo) + String.format("%15d", numeroG)
+            //         + String.format("%27f", uniformidad));
 
             // Condicional que hace que el ciclo se detenga al encontar la semilla
             if (numeroG == semilla) {
@@ -53,10 +53,10 @@ public class Generador {
         } // Si i es igual a los numeros generados entonces se dice que es un periodo
           // completo, en caso contrario no
         if (m / 4 == i + 1) {
-            System.out.println("Es periodo completo");
+            // System.out.println("Es periodo completo");
             setEsCompleto(true);
         } else {
-            System.out.println("Es periodo incompleto");
+            // System.out.println("Es periodo incompleto");
             setEsCompleto(false);
         }
     }

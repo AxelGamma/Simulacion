@@ -14,7 +14,7 @@ public class inputDatos {
         System.out.println("------Introduce los datos por ejemplo, valor1=Xo valor2= a valor 3= b ------\n");
         i = 0;
         while (i < pruebas.length) {
-            System.out.println("Introduce los datos de la prueba" + (i + 1) + ": ");
+            System.out.println("Introduce los datos de la prueba " + (i + 1) + ": ");
             j = 0;
             while (j < y) {
                 if (j == 0) {
