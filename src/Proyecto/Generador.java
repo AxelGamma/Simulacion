@@ -6,7 +6,7 @@ public class Generador {
     // Declaramos las variables x0= semilla
     int xo, a, m, numeroG, semilla, b;
     int j = 0, i = 0;
-    double[] muestraA = new double[50];// muestra la cual tiene un tamaño de 40
+    double[] muestraA = new double[1000];// muestra la cual tiene un tamaño de 40
     double uniformidad;
     boolean EsCompleto = false;
     quickSort ordenamiento = new quickSort();

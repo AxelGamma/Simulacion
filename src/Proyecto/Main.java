@@ -22,15 +22,15 @@ public class Main {
 
             // Creamos objeto de la chiCuadrada donde introducimos la muestraA(muestra de 50
             // numeros) y la cantidad de numeros de las pruebas hacer
-            // chiCuadrada chi = new chiCuadrada(generador.muestraA, datos.getNumPruebas());
+            chiCuadrada chi = new chiCuadrada(generador.muestraA, datos.getNumPruebas());
             // generador.muestraA(); ---->Muestra que toma del generador = 50,
-            Poker poker = new Poker(generador.getMuestraA());
-            poker.muestra();
-            estados[i] = poker.getEstadoPrueba();
+            // Poker poker = new Poker(generador.getMuestraA());
+            // poker.muestra();
+            // estados[i] = poker.getEstadoPrueba();
             // Huecos huecos = new Huecos(generador.getMuestraA());
             // huecos.pruebaH();
-            // chi.resultados();
-            // estados[i] = huecos.getEstadoPrueba();
+            chi.resultados();
+            estados[i] = chi.getEstadoPrueba();
 
             i++;
 

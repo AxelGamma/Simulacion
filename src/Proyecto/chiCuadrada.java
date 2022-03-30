@@ -44,27 +44,27 @@ public class chiCuadrada {
                 // Valores generados
                 System.out.println(String.format("%s", 1) + String.format("%29s", "0.000>= ri < 0.200")
                                 + String.format("%12s", rango1) + String.format("%22s", esperado)
-                                + String.format("%25f", Math.pow(rango1 - 10, 2) / rango1));
+                                + String.format("%25f", Math.pow(rango1 - esperado, 2) / rango1));
 
                 System.out.println(String.format("%s", 2) + String.format("%29s", "0.200>= ri < 0.400")
                                 + String.format("%12s", rango2) + String.format("%22s", esperado)
-                                + String.format("%25f", Math.pow(rango2 - 10, 2) / rango2));
+                                + String.format("%25f", Math.pow(rango2 - esperado, 2) / rango2));
 
                 System.out.println(String.format("%s", 3) + String.format("%29s", "0.400>= ri < 0.600")
                                 + String.format("%12s", rango3) + String.format("%22s", esperado)
-                                + String.format("%25f", Math.pow(rango3 - 10, 2) / rango3));
+                                + String.format("%25f", Math.pow(rango3 - esperado, 2) / rango3));
 
                 System.out.println(String.format("%s", 4) + String.format("%29s", "0.600>= ri < 0.800")
                                 + String.format("%12s", rango4) + String.format("%22s", esperado)
-                                + String.format("%25f", Math.pow(rango4 - 10, 2) / rango4));
+                                + String.format("%25f", Math.pow(rango4 - esperado, 2) / rango4));
 
                 System.out.println(String.format("%s", 5) + String.format("%25s", "0.800>= ri < 1")
                                 + String.format("%16s", rango5) + String.format("%22s", esperado)
-                                + String.format("%25f", Math.pow(rango5 - 10, 2) / rango5));
+                                + String.format("%25f", Math.pow(rango5 - esperado, 2) / rango5));
 
-                chiCalculada = (Math.pow(rango1 - 10, 2) / rango1) + (Math.pow(rango2 - 10, 2) / rango2)
-                                + (Math.pow(rango3 - 10, 2) / rango3) + (Math.pow(rango4 - 10, 2) / rango4)
-                                + (Math.pow(rango5 - 10, 2) / rango5);
+                chiCalculada = (Math.pow(rango1 - esperado, 2) / rango1) + (Math.pow(rango2 - esperado, 2) / rango2)
+                                + (Math.pow(rango3 - esperado, 2) / rango3) + (Math.pow(rango4 - esperado, 2) / rango4)
+                                + (Math.pow(rango5 - esperado, 2) / rango5);
 
                 System.out.println(String.format("%42d", sumaObserv) + String.format("%22d", esperado * 5)
                                 + String.format("%25f = ChiCalculada", chiCalculada));

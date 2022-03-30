@@ -72,7 +72,9 @@ Xo a b
 237 477 10
 369 581 10
 ```
+
 # Estado de pruebas de Huecos
+
 ```
 ***Datos que no pasaron la prueba***
 Xo a b
@@ -94,7 +96,25 @@ Xo a b
 237 477 10
 
 ```
+
 # Estado de pruebas de poker
 
+```
+***Datos que no pasaron la prueba***
+Ninguno
+***Datos que pasaron la prueba de Huecos: 11***
+Xo a b
 
+5 5 10
+43 1003 10
+121 653 10
+223 733 10
+377 611 10
+541 1013 10
+357 683 10
+295 339 10
+129 779 10
+71 709 10
+237 477 10
 
+```
