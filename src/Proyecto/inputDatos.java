@@ -19,7 +19,7 @@ public class inputDatos {
     private void guardadoPruebas() {
         i = 0;
         while (i < pruebas.length) {
-            System.out.println("Introduce los datos de la prueba " + (i + 1) + ": ");
+            System.out.println("Introduce los datos de la prueba " + (i + 1) + ": ");//pedimos los datos de cada prueba
             j = 0;
             while (j < y) {
                 if (j == 0) {
