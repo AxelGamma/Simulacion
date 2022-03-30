@@ -18,7 +18,7 @@ public class Montecarlo {
                         + String.format("%15s", "Array 2"));
         while (i < muestra1.length) {
             primeraOperacion = (Math.pow(muestra1[i], 2));
-            System.out.println(String.format("%10f", muestra1[i]));
+            System.out.println(String.format("%10f", muestra2[i]));
             i++;
         }
     }

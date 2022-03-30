@@ -120,8 +120,10 @@ Xo a b
 ```
 # Estado de pruebas de Monte Carlo
 ```
+Numero de los cuales pasaron todas las pruebas y son buenas convinaciones
+para el metodo de monte carlo dandonos 16,384 numeros aleatorios
 41 1203 16
-
-295	419	16
-
+295 419 16
+ en el mismo proyecto en la carpeta montecarlo se encuentra el archivo de excel
+ el cual tiene las pruebas y el ejercicio de la practica
 ```
