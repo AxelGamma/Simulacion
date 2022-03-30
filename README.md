@@ -102,7 +102,7 @@ Xo a b
 ```
 ***Datos que no pasaron la prueba***
 Ninguno
-***Datos que pasaron la prueba de Huecos: 11***
+***Datos que pasaron la prueba de poker: 11***
 Xo a b
 
 5 5 10
@@ -120,8 +120,8 @@ Xo a b
 ```
 # Estado de pruebas de Monte Carlo
 ```
-41 1203 13
+41 1203 16
 
-295	419	13
+295	419	16
 
 ```

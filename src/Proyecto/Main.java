@@ -23,22 +23,23 @@ public class Main {
             estados[i] = generador.getEsCompleto();
             // Fin de la generador
 
-            // System.out.println("---------------------------------------Prueba
-            // chiCuadrada---------------------------------------");
-            // // Prueba de la chiCuadrada
+            
+            // Prueba de la chiCuadrada
             // chiCuadrada chi = new chiCuadrada(generador.getMuestraA(),
             // datos.getNumPruebas());
             // chi.resultados();
             // estados[i] = chi.getEstadoPrueba();
+            
 
-            // Prueba de poker
-            Poker poker = new Poker(generador.getMuestraA());
-            poker.muestra();
-            estados[i] = poker.getEstadoPrueba();
-            // estados[i] = poker.getEstadoPrueba();
             // Huecos huecos = new Huecos(generador.getMuestraA());
             // huecos.pruebaH();
+            // estados[i] = huecos.getEstadoPrueba();
+            
 
+
+            // Prueba de poker
+            // Poker poker = new Poker(generador.getMuestraA());
+            // poker.muestra();
             // estados[i] = poker.getEstadoPrueba();
 
             i++;

@@ -74,4 +74,5 @@ public class Generador {
     public double[] getMuestraA() {
         return muestraA;
     }
+    
 }
