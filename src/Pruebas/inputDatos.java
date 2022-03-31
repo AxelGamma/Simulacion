@@ -1,4 +1,4 @@
-package Proyecto;
+package Pruebas;
 
 import java.util.Scanner;
 

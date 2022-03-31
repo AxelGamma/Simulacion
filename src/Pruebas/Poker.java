@@ -1,4 +1,4 @@
-package Proyecto;
+package Pruebas;
 
 public class Poker {
     private double[] muestra;

@@ -1,6 +1,6 @@
-package Proyecto;
+package Pruebas;
 
-public class chiCuadrada {
+public class ChiCuadrada {
         private double[] muestras;
         private int contador, esperado, rango1, rango2, rango3, rango4, rango5;
         private int sumaObserv = 0;
@@ -8,7 +8,7 @@ public class chiCuadrada {
         private int numeroPruebas, conteoPruebas = 0;
         private boolean estadoPrueba = false;
 
-        public chiCuadrada(double[] muestraA, int numeroPruebas) {
+        public ChiCuadrada(double[] muestraA, int numeroPruebas) {
                 this.muestras = muestraA;
                 this.numeroPruebas = numeroPruebas;
         }

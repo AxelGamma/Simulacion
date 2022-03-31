@@ -1,4 +1,6 @@
-package Proyecto;
+package MonteCarlo;
+
+import Pruebas.Generador;
 
 public class AppIntegral {
     public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class AppIntegral {
         prueba2.generador();
 
         
-        Montecarlo monte = new Montecarlo(prueba1.getMuestraA(), prueba2.getMuestraA());
+        Montecarlo monte = new Montecarlo(prueba1.getMuestraA(), prueba2.getMuestraA(),12000);
         monte.showArray();
     }
 }

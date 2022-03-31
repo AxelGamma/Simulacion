@@ -1,6 +1,6 @@
-package Proyecto;
+package Pruebas;
 
-public class quickSort {
+public class QuickSort {
     public void quickSor() {
 
     }

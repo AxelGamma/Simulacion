@@ -1,6 +1,6 @@
-package Proyecto;
+package Pruebas;
 
-public class Main {
+public class AppMain {
 
     public static void main(String[] args) throws Exception {
 

@@ -1,4 +1,4 @@
-package Proyecto;
+package Pruebas;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -16,7 +16,7 @@ public class Kolmogorov {
     double[] Diferencia = new double[muestraC.length];
     double uniformidad, Dmax;
     DecimalFormat format = new DecimalFormat("#,###.##");
-    quickSort ordenamiento = new quickSort();
+    QuickSort ordenamiento = new QuickSort();
 
     public void Kolmogorov() {
     }
