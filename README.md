@@ -1,6 +1,7 @@
 # Pruebas de numeros pseudoaleatorios
 
-En este proyectos se encuentran las pruebas de uniformidad, Independencia y aleatoriedad
+En este proyectos se encuentran la prueba de ChiCuadrada, Huecos, Poker y el metodo Montecarlo en java
+
 
 # Tabla de pruebas
 
