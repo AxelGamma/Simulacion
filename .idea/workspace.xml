@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="561f9e68-aa28-4553-bb2c-b92bc25d3020" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/MonteCarlo/Montecarlo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Archivos/Montecarlo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Archivos/Poker.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Montecarlo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Montecarlo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/AppIntegral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MonteCarlo/AppIntegral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Generador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/Generador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Huecos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/Huecos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Kolmogorov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/Kolmogorov.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Montecarlo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Montecarlo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Archivos/Montecarlo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/Poker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Poker.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Archivos/Poker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/chiCuadrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/chiCuadrada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/inputDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/inputDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Proyecto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/AppIntegral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Generador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Huecos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Kolmogorov.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Montecarlo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Montecarlo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Poker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Poker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/chiCuadrada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/inputDatos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/quickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pruebas/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/AppMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <recent name="D:\Programas VSC\NumerosPseudoAleatorios\src\MonteCarlo\Archivos" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppMain">
     <configuration name="AppIntegral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MonteCarlo.AppIntegral" />
       <module name="NumerosPseudoAleatorios" />
@@ -69,8 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pruebas.AppMain" />
+      <module name="NumerosPseudoAleatorios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pruebas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.AppIntegral" />
       </list>
     </recent_temporary>
@@ -85,8 +101,18 @@
       <updated>1648653748099</updated>
       <workItem from="1648653755012" duration="284000" />
       <workItem from="1648654220485" duration="665000" />
-      <workItem from="1648727895384" duration="2945000" />
+      <workItem from="1648727895384" duration="3238000" />
+      <workItem from="1648829527765" duration="1094000" />
+      <workItem from="1648830791860" duration="1582000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1648731094278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648731094278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

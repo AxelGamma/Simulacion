@@ -24,23 +24,22 @@ public class AppMain {
             // Fin de la generador
 
             
-            // Prueba de la chiCuadrada
-            // chiCuadrada chi = new chiCuadrada(generador.getMuestraA(),
-            // datos.getNumPruebas());
-            // chi.resultados();
-            // estados[i] = chi.getEstadoPrueba();
+             //Prueba de la chiCuadrada
+//             ChiCuadrada chi = new ChiCuadrada(generador.getMuestraA(),datos.getNumPruebas());
+//             chi.resultados();
+//             estados[i] = chi.getEstadoPrueba();
             
 
-            // Huecos huecos = new Huecos(generador.getMuestraA());
-            // huecos.pruebaH();
-            // estados[i] = huecos.getEstadoPrueba();
+//             Huecos huecos = new Huecos(generador.getMuestraA());
+//             huecos.pruebaH();
+//             estados[i] = huecos.getEstadoPrueba();
             
 
 
-            // Prueba de poker
-            // Poker poker = new Poker(generador.getMuestraA());
-            // poker.muestra();
-            // estados[i] = poker.getEstadoPrueba();
+             //Prueba de poker
+             Poker poker = new Poker(generador.getMuestraA());
+             poker.muestra();
+             estados[i] = poker.getEstadoPrueba();
 
             i++;
 
