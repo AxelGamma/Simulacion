@@ -5,22 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="561f9e68-aa28-4553-bb2c-b92bc25d3020" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/Archivos/Montecarlo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Archivos/Poker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Package Proyecto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/AppIntegral.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Generador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Huecos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Kolmogorov.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Montecarlo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Montecarlo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Poker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/Poker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/chiCuadrada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/inputDatos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NumerosPseudoAleatorios/Proyecto/quickSort.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pruebas/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/AppMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +88,7 @@
       <workItem from="1648727895384" duration="3238000" />
       <workItem from="1648829527765" duration="1094000" />
       <workItem from="1648830791860" duration="1582000" />
+      <workItem from="1649124684052" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1648731094278</created>

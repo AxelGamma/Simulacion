@@ -118,6 +118,10 @@ Xo a b
 71 709 10
 237 477 10
 
+Plus:
+
+41 1203 16
+295 419 16
 ```
 # Estado de pruebas de Monte Carlo
 ```

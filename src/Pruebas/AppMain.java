@@ -25,14 +25,14 @@ public class AppMain {
 
             
              //Prueba de la chiCuadrada
-//             ChiCuadrada chi = new ChiCuadrada(generador.getMuestraA(),datos.getNumPruebas());
-//             chi.resultados();
-//             estados[i] = chi.getEstadoPrueba();
+            // ChiCuadrada chi = new ChiCuadrada(generador.getMuestraA(),datos.getNumPruebas());
+            // chi.resultados();
+            // estados[i] = chi.getEstadoPrueba();
             
 
-//             Huecos huecos = new Huecos(generador.getMuestraA());
-//             huecos.pruebaH();
-//             estados[i] = huecos.getEstadoPrueba();
+            // Huecos huecos = new Huecos(generador.getMuestraA());
+            // huecos.pruebaH();
+            // estados[i] = huecos.getEstadoPrueba();
             
 
 
