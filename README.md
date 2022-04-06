@@ -117,6 +117,23 @@ Xo a b
 129 779 10
 71 709 10
 237 477 10
+***Datos que no pasaron la prueba***
+Ninguno
+***Datos que pasaron la prueba de poker: 11***
+Xo a b
+
+5 5 10
+43 1003 10
+121 653 10
+223 733 10
+377 611 10
+541 1013 10
+357 683 10
+295 339 10
+129 779 10
+71 709 10
+237 477 10
+
 
 ```
 # Estado de pruebas de Monte Carlo
