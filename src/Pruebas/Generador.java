@@ -9,7 +9,6 @@ public class Generador {
     private double[] muestraA;
     private double uniformidad;
     private boolean EsCompleto = false;
-    private QuickSort ordenamiento = new QuickSort();
     Scanner sc = new Scanner(System.in);
 
     // metodo que es llamado por el main para introducir los datos: xo,a,b

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AppExp",
+            "request": "launch",
+            "mainClass": "Exposicion.AppExp",
+            "projectName": "Simulacion_b4bd4be6"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppMain",
+            "request": "launch",
+            "mainClass": "Pruebas.AppMain",
+            "projectName": "NumerosPseudoAleatorios_a6d14e06"
+        },
+        {
+            "type": "java",
             "name": "Launch AppMontecarlo",
             "request": "launch",
             "mainClass": "Proyecto.AppMontecarlo",

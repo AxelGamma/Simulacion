@@ -37,9 +37,9 @@ public class AppMain {
 
 
              //Prueba de poker
-             Poker poker = new Poker(generador.getMuestraA());
-             poker.muestra();
-             estados[i] = poker.getEstadoPrueba();
+//             Poker poker = new Poker(generador.getMuestraA());
+//             poker.muestra();
+//             estados[i] = poker.getEstadoPrueba();
 
             i++;
 
